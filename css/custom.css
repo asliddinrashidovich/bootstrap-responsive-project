@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+h1 {
+    font-weight: 700;
+}
+h2 {
+    font-weight: 600;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .navbar-link.active,
+.navbar-light .navbar-nav .nav-link {
+    font-family:'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+.nav-button:hover {
+    background-color: green;
+    color: #fff;
+    border-color: green!important;
+}
+.home {
+    background-color: #F0F5F9;
+    padding: 150px 0 100px 0;
+}
+.btn {
+    padding: 10px  30px;
+    border: 2px solid;
+
+}
+.data_container {
+    background-color: #F0F5F9;
+}
+.result-container {
+    text-align: center;
+}
+.span {
+    font-weight: 600;
+}
+.result-container {
+    padding: 50px 0;
+}
+.result-img {
+    width: 100px;
+}
+.story-container {
+    background-color:#F0F5F9;
+    padding: 100px 0;
+}
+.carousel-item {
+    font-size: larger;
+}
+.carusel-img {
+    width: 80px;
+    border-radius: 50%;
+}
+.img-quato {
+    width: 60px;
+}
+.pricing {
+    padding: 60px 0;
+}
+.pricing-card {
+    background: #F0F5F9;
+}
+.pricing-img {
+    width: 150px;
+    margin-bottom: 30px ;
+}
+.FAQ-section {
+    background: #F0F5F9;
+    padding: 80px;
+}
+.accordion-item {
+    background-color: transparent;
+    border: none;
+}
+.accordion-button {
+    background: transparent;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.form-container-input {
+    background:  #F0F5F9;
+}
+.form-container-div {
+    width: 600px;
+    margin: 0 auto;
+}
